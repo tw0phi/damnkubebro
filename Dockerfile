@@ -2,6 +2,7 @@ FROM docker.io/tsl0922/ttyd:latest
 LABEL maintainer="r0binak"
 
 EXPOSE 80
+EXPOSE 22
 
 WORKDIR /var/run
 
